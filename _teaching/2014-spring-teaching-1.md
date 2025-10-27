@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Assistant for Introduction to Algorithms"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate and Graduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "Johns Hopkins University, Computer Science Department"
 date: 2014-01-01
 location: "City, Country"
 ---
