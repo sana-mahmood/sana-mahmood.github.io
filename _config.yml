@@ -23,7 +23,7 @@ repository               : "sana-mahmood/sana-mahmood.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "sana.jpeg"
   name             : "Sana Mahmood"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Computer Science"
