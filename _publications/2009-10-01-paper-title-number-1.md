@@ -1,6 +1,6 @@
 ---
 title: "Orderly Managements of Packets in RDMA by Eunomia"
-collection: publications
+collection: Publications
 category: conference
 date: 2025-08-07
 venue: 'APNet 2025'

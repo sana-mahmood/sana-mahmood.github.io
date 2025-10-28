@@ -1,6 +1,6 @@
 ---
 title: "Efficient Datacenter Load Balancing with Microslices"
-collection: publications
+collection: Publications
 category: conference
 date: 2025-05-27
 venue: 'IFIP 2025'
