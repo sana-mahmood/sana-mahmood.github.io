@@ -1,25 +1,21 @@
 ---
-layout: archive
+layout: page
 title: "Experience"
 permalink: /experience/
 author_profile: true
 ---
 
-{% for exp in site.experience reversed %}
-  <div style="margin-bottom: 1.5rem;">
-    <h3 style="margin-bottom: 0;">{{ exp.title }}</h3>
-    {% if exp.role %}
-      <em>{{ exp.role }}</em><br>
-    {% endif %}
-    {% if exp.duration %}
-      {{ exp.duration }}
-    {% endif %}
-    {% if exp.location %}
-      — {{ exp.location }}
-    {% endif %}
-    <br>
-    {{ exp.content | markdownify }}
-  </div>
-{% endfor %}
-
-
+<div class="experience-list">
+  {% for exp in site.experience reversed %}
+    <div style="margin-bottom: 2rem;">
+      <h3 style="margin-bottom: 0;">{{ exp.title }}</h3>
+      {% if exp.role %}
+        <p style="margin: 0;"><em>{{ exp.role }}</em></p>
+      {% endif %}
+      {% if exp.duration or exp.location %}
+        <p style="margin: 0;">{{ exp.duration }}{% if exp.location %} — {{ exp.location }}{% endif %}</p>
+      {% endif %}
+      <p>{{ exp.content | markdownify }}</p>
+    </div>
+  {% endfor %}
+</div>
