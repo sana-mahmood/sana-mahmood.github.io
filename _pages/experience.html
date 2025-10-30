@@ -5,10 +5,21 @@ permalink: /experience/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
-{% for post in site.experience %}
-  {% include archive-single.html %}
+{% for exp in site.experience reversed %}
+  <div style="margin-bottom: 1.5rem;">
+    <h3 style="margin-bottom: 0;">{{ exp.title }}</h3>
+    {% if exp.role %}
+      <em>{{ exp.role }}</em><br>
+    {% endif %}
+    {% if exp.duration %}
+      {{ exp.duration }}
+    {% endif %}
+    {% if exp.location %}
+      — {{ exp.location }}
+    {% endif %}
+    <br>
+    {{ exp.content | markdownify }}
+  </div>
 {% endfor %}
+
 
