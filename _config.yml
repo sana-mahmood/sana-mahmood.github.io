@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "jekyll-theme-merlot" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Sana Mahmood"
 title_separator          : "-"
 name                     : &name "Sana Mahmood"
